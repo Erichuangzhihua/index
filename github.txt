@@ -1,0 +1,36 @@
+mkdir 1(文件夹名字) ——在本地建立一个名字为1的文件夹
+cd 1
+git init ——在本地建立一个库
+touch 1.txt(文件名字)——在本地库中建立文件
+git status——查询状态
+git add .——跟踪文件1.txt
+git status——查看跟踪成功否（变绿为跟踪成功）
+git commit -m "初始化仓库"
+git status ——查看状态
+下一步建立远端连接
+git config --global user.name "你的github用户名"
+git commit -m "初始化"
+git status 
+git log(看本地仓库的提交记录)
+git remote add origin http://github.com/Erichuangzhihua/index.git(git库的地址)
+git clone https://github.com/Erichuangzhihua/index.git
+git status
+git add .
+git commit -m "first"
+git status
+git log
+cd index（进入本地文件夹）
+git add .
+git status
+git commit -m"second"
+git status
+git log
+git push origin master(把本地仓库里的内容提交上去)
+
+
+
+
+
+
+
+
